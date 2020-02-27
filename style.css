@@ -141,7 +141,6 @@ header h1  {
     animation: dotted_line 1.5s infinite;
 }
 
-
 @keyframes dotted_line {
     0% { content: ""; }
     25% { content: "."; }
