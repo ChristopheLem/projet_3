@@ -39,3 +39,60 @@ div.dessert {
 #menu3 .price { 
    font-size: 16px;
 }
+/* LAPTOP */
+@media all and (min-width: 768px) {
+    .container{
+        max-width: 680px;
+        margin: 0 auto 97px;
+        padding: 40px;
+    }
+    #menu3 div div {
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu3 p {
+        font-size: 16px;
+        margin: 8px 0 8px 60px;
+    }
+    #menu3 .price {
+        font-size: 18px;
+        margin: 8px 60px 8px 0;
+    }
+    /* SIDELINE */
+    #menu3 h3.starter::before {
+        content: url("../images/menu3_starter_left.png");
+        position: absolute;
+        left: -10px;
+        top: 4px;
+    }
+    #menu3 h3.starter::after {
+        content: url("../images/menu3_starter_right.png");
+        position: absolute;
+        right: -10px;
+        top: 4px;
+    }
+    #menu3 h3.main_course::before {
+        content: url("../images/menu3_main_left.png");
+        position: absolute;
+        left: -10px;
+        top: 4px;
+    }
+    #menu3 h3.main_course::after {
+        content: url("../images/menu3_main_right.png");
+        position: absolute;
+        right: -10px;
+        top: 4px;
+    }
+    #menu3 h3.dessert::before {
+        content: url("../images/menu3_dessert_left.png");
+        position: absolute;
+        left: -10px;
+        top: 4px;
+    }
+    #menu3 h3.dessert::after {
+        content: url("../images/menu3_dessert_right.png");
+        position: absolute;
+        right: -10px;
+        top: 4px;
+    }
+}
