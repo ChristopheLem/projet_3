@@ -132,5 +132,20 @@ header h1  {
     margin: 0;
     color: inherit;
 }
-
+#soon h2 span {
+    visibility: hidden;;
+}
+#soon h2 span::before {
+    content: "";
+    position: absolute;
+    visibility: visible;
+    animation: dotted_line 1.5s infinite;
+}
+@keyframes dotted_line {
+    0% { content: ""; }
+    25% { content: "."; }
+    50% { content: ".."; }
+    75% { content: "..."; }
+    100% { content: ""; }
+}
 
