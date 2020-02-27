@@ -9,10 +9,22 @@ body {
     background-color: #FFF; 
 }
 
+.container {
+    margin: 0 40px 40px;
+    padding: 100px 20px;
+    box-shadow: 7px 7px 5px #F2F2F2, -7px -7px 5px #F2F2F2;
+    min-height: 423px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 /* HEADER */
 header {
     background-color: #579C87;
