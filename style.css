@@ -168,3 +168,17 @@ footer h3 {
     display: flex;
     justify-content: space-between;
 }
+
+/* LAPTOP*/
+@media all and (min-width: 768px) {
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    main .center section:not(#soon) {
+        flex: 0 1 33%;
+    }
+    main .center section:not(#soon) h1:hover {
+        cursor: pointer;
+    }
+}
