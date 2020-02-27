@@ -40,3 +40,32 @@ div.dessert {
 #menu1 h2 img {
     margin-right: 5px;
 }
+/* LAPTOP */
+@media all and (min-width: 768px) {
+    .container{
+        max-width: 660px;
+        margin: 0 auto 97px;
+        padding: 40px 80px;
+    }
+    #menu1 p {
+        font-size: 16px;
+        margin-left: 0;
+    }
+    #menu1 .price {
+        font-size: 18px;
+        margin-right: 0;
+    }
+    /* SIDELINE */
+    #menu1 h3::before {
+        content: url("../images/menu1_left.png");
+        position: absolute;
+        left: -5px;
+        top: 3px;
+    }
+    #menu1 h3::after {
+        content: url("../images/menu1_right.png");
+        position: absolute;
+        right: -5px;
+        top: 3px;
+    }
+}
