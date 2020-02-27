@@ -47,9 +47,14 @@ div.dessert {
         margin: 0 auto 97px;
         padding: 40px 80px;
     }
+    #menu1 div div {
+        display: flex;
+        justify-content: space-between;
+    }
     #menu1 p {
         font-size: 16px;
         margin-left: 0;
+        text-align: left;
     }
     #menu1 .price {
         font-size: 18px;
