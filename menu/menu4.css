@@ -1,0 +1,44 @@
+h1 {
+    color: #353535;
+    font-family: 'Roboto', sans-serif;
+}
+/* MENU */
+#menu4 {
+    background-color: #FDFFFD;
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    color: #000;
+}
+.container{
+    margin: 0 20px 113px;
+    padding: 40px 10px;
+}
+#menu4 h2 {
+    display: inline-block;
+    background: linear-gradient(to right, #4EA043, #92D968, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kaushan Script', cursive;   
+    font-size: 32px;     
+}
+div.starter {
+    margin-bottom: 60px;
+}
+div.main_course {
+    margin-bottom: 60px;
+}
+div.dessert {
+    margin-bottom: 60px;
+}
+#menu4 h3 {
+    font-weight: 500;
+    position: relative;
+}
+#menu4 p {
+    font-size: 14px;
+}
+
+#menu4 .price {
+    font-size: 16px;
+}
+
