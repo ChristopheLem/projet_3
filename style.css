@@ -2,24 +2,20 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     text-align: center;   
     background-color: #FFF; 
 }
-
 .container {
     margin: 0 40px 40px;
     padding: 100px 20px;
     box-shadow: 7px 7px 5px #F2F2F2, -7px -7px 5px #F2F2F2;
     min-height: 423px;
 }
-
 section h2 {
     font-size: 32px;
 }
-
 a {
     text-decoration: none;
     color: inherit;
@@ -31,7 +27,6 @@ header {
     border-bottom: 2px solid #A1C181;
     margin-bottom: 40px;    
 }
-
 header h1  {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
@@ -121,3 +116,21 @@ header h1  {
     color: #72BF56;
     font-weight: 300;
 }
+
+/* SOON */
+#soon {
+    display: inline-block;
+    position: relative;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #FDCB46;
+    background-color: #579C87;
+    margin-bottom: 97px;
+}
+#soon h2 {
+    font-size: 24px;
+    margin: 0;
+    color: inherit;
+}
+
+
