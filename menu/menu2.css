@@ -1,0 +1,43 @@
+h1 {
+    color: #353535;
+    font-family: 'Roboto', sans-serif;
+}
+/* MENU */
+#menu2 {
+    background-color: #FFF5FE;
+    font-family: 'Roboto Slab', serif;  
+}
+.container{
+    margin: 0 20px 113px;
+    padding: 40px 10px;
+}
+div.starter {
+    margin-bottom: 60px;
+    color: #C67412;    
+}
+
+div.main_course {
+    margin-bottom: 60px;
+    color: #A56799;
+}
+
+div.dessert {
+    margin-bottom: 60px;
+    color: #6E4CCC;
+}
+#menu2 h2 {
+    font-size: 32px;
+    display: inline-block;
+    background: linear-gradient(to right, #CC7C53,#A56799, #9860E7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#menu2 h3 {
+    position: relative;
+}
+#menu2 p {
+    font-size: 14px;    
+}
+#menu2 .price {
+    font-size: 16px;    
+}
