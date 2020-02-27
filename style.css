@@ -34,14 +34,12 @@ header h1  {
 #menu1 {
     background-color: #FCDFDB;
 }
-
 #menu1 h2 {
     color: #3C1218;
     font-weight: 300;
     font-size: 24px;
     font-family: 'Devonshire', cursive;        
 }
-
 #menu1 h2.menu {
     font-family: 'Kalam', cursive;
     font-size: 32px;
@@ -52,7 +50,6 @@ header h1  {
 #menu2 {
     background-color: #FFF5FE;
 }
-
 #menu2 h2 {
     display: inline-block;
     background: linear-gradient(to right, #CC7C53,#A56799, #9860E7);
@@ -60,10 +57,55 @@ header h1  {
     -webkit-text-fill-color: transparent;
     font-size: 24px;
 }
-
 #menu2 h2.menu  {
     display: block;
     font-family: 'Roboto Slab', serif;      
     font-size: 32px;
     color: #CC7C53;
+}
+
+/* MENU3 */
+#menu3 {
+    background-color: #EDEFEE;
+    font-family: 'Kalam', cursive;
+}
+
+#menu3 h2 {
+    display: inline-block;
+    background: linear-gradient(to right, #0526BF,#1371E5,#3198E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Dancing Script', cursive;  
+    font-size: 24px;  
+}
+
+#menu3 h2.menu  {
+    display: block;
+    font-size: 32px;
+    color: #3198E5;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+}
+/* MENU4 */
+#menu4 {
+    background-color: #FDFFFD;
+
+    font-weight: 400;
+}
+
+#menu4 h2 {
+    display: inline-block;
+    background: linear-gradient(to right, #4EA043, #92D968, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kaushan Script', cursive;  
+    font-size: 24px;  
+}
+
+#menu4 h2.menu  {
+    display: block;
+    font-family: 'Kalam', cursive;      
+    font-size: 32px;
+    color: #72BF56;
+    font-weight: 300;
 }
