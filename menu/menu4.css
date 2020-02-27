@@ -37,8 +37,40 @@ div.dessert {
 #menu4 p {
     font-size: 14px;
 }
-
 #menu4 .price {
     font-size: 16px;
 }
-
+/* LAPTOP */
+@media all and (min-width: 768px) {
+    .container{
+        max-width: 720px;
+        margin: 0 auto 97px;
+        padding: 40px;
+    }
+    #menu4 div div {
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu4 p {
+        font-size: 16px;
+        margin: 8px 0 8px 60px;
+        text-align: left;
+    }
+    #menu4 .price {
+        font-size: 18px;
+        margin: 8px 60px 8px 0;
+    }
+    /* SIDELINE */
+    #menu4 h3::before {
+        content: url("../images/menu4_left.png");
+        position: absolute;
+        left: 5px;
+        top: 4px;
+    }
+    #menu4 h3::after {
+        content: url("../images/menu4_right.png");
+        position: absolute;
+        right: 5px;
+        top: 4px;
+    }
+}
