@@ -98,4 +98,33 @@ div.dessert {
         right: -10px;
         top: 4px;
     }
+    /* UNDERLINE WHEN MOUSE HOVER */
+    #menu2 h3 span {
+        display: inline-block;
+        position: relative;
+        padding: 0 10px 10px;
+    }
+    #menu2 h3 span::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.5s ease-in;
+    }
+    #menu2 .starter h3 span::before{
+        background-color: #C67412;
+    }
+    
+    #menu2 .main_course h3 span::before{
+        background-color: #A56799;
+    }
+    
+    #menu2 .dessert h3 span::before{
+        background-color: #6E4CCC;
+    }
+    #menu2 h3 span:hover::before {
+        width: 100%;
+    }
 }
