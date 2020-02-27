@@ -29,3 +29,41 @@ header h1  {
     padding: 24px 12px;
     letter-spacing: -2px;
 }
+
+/* MENU1 */
+#menu1 {
+    background-color: #FCDFDB;
+}
+
+#menu1 h2 {
+    color: #3C1218;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Devonshire', cursive;        
+}
+
+#menu1 h2.menu {
+    font-family: 'Kalam', cursive;
+    font-size: 32px;
+    color: #3C1218;
+}
+
+/* MENU2 */
+#menu2 {
+    background-color: #FFF5FE;
+}
+
+#menu2 h2 {
+    display: inline-block;
+    background: linear-gradient(to right, #CC7C53,#A56799, #9860E7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+}
+
+#menu2 h2.menu  {
+    display: block;
+    font-family: 'Roboto Slab', serif;      
+    font-size: 32px;
+    color: #CC7C53;
+}
