@@ -41,3 +41,61 @@ div.dessert {
 #menu2 .price {
     font-size: 16px;    
 }
+/* LAPTOP */
+@media all and (min-width: 768px) {
+    .container{
+        max-width: 730px;
+        margin: 0 auto 97px;
+        padding: 40px;
+    }
+    #menu2 div div {
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu2 p {
+        font-size: 16px;
+        margin-left: 60px;
+        text-align: left;
+    }
+    #menu2 .price {
+        font-size: 18px;
+        margin-right: 60px;
+    }
+    /* SIDELINE */
+    #menu2 h3.starter::before {
+        content: url("../images/menu2_starter_left.png");
+        position: absolute;
+        left: -10px;
+        top: 4px;
+    }
+    #menu2 h3.starter::after {
+        content: url("../images/menu2_starter_right.png");
+        position: absolute;
+        right: -10px;
+        top: 4px;
+    }
+    #menu2 h3.main_course::before {
+        content: url("../images/menu2_main_left.png");
+        position: absolute;
+        left: -10px;
+        top: 4px;
+    }
+    #menu2 h3.main_course::after {
+        content: url("../images/menu2_main_right.png");
+        position: absolute;
+        right: -10px;
+        top: 4px;
+    }
+    #menu2 h3.dessert::before {
+        content: url("../images/menu2_dessert_left.png");
+        position: absolute;
+        left: -10px;
+        top: 4px;
+    }
+    #menu2 h3.dessert::after {
+        content: url("../images/menu2_dessert_right.png");
+        position: absolute;
+        right: -10px;
+        top: 4px;
+    }
+}
