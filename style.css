@@ -30,7 +30,6 @@ header {
 header h1  {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
-    font-weight: 700;
     color: #FDCB46;
     margin: 0;
     padding: 24px 12px;
@@ -149,3 +148,23 @@ header h1  {
     100% { content: ""; }
 }
 
+/* FOOTER */
+footer {
+    background-color: #579C87;
+    border-top: 2px solid #A1C181;
+    position: fixed;  
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FDCB46;
+    margin: 0;
+    padding: 16px 12px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
