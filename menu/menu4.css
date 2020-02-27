@@ -73,4 +73,23 @@ div.dessert {
         right: 5px;
         top: 4px;
     }
+    /* UNDERLINE WHEN MOUSE HOVER */
+    #menu4 h3 span {
+        display: inline-block;
+        position: relative;
+        padding: 0 10px;
+    }
+    #menu4 h3 span::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background: linear-gradient(to right, #4EA043, #92D968, #BEFF7F, #92D968, #4EA043);
+        transition: all 0.5s ease-in;
+    }
+    #menu4 h3 span:hover::before {
+        width: 100%;
+    }
 }
