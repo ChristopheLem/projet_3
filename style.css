@@ -30,7 +30,6 @@ header {
 header h1  {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
-    font-weight: 700;
     color: #FDCB46;
     margin: 0;
     padding: 24px 12px;
@@ -141,3 +140,63 @@ header h1  {
     visibility: visible;
     animation: dotted_line 1.5s infinite;
 }
+
+
+@keyframes dotted_line {
+    0% { content: ""; }
+    25% { content: "."; }
+    50% { content: ".."; }
+    75% { content: "..."; }
+    100% { content: ""; }
+}
+
+/* FOOTER */
+footer {
+    background-color: #579C87;
+    border-top: 2px solid #A1C181;
+    position: fixed;  
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FDCB46;
+    margin: 0;
+    padding: 16px 12px;
+    animation: shake 0.6s linear 2s 5;  
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes shake {
+    20% { transform: translate(1px, 1px) rotate(2deg); }
+    40% { transform: translate(-1px, -1px) rotate(-2deg); }
+    60% { transform: translate(1px, 1px) rotate(-2deg); }
+    80% { transform: translate(-1px, -1px) rotate(2deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+/* DESKTOP*/
+@media all and (min-width: 768px) {
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    main .center section:not(#soon) {
+        flex: 0 1 33%;
+    }
+    main .center section:not(#soon) h2{
+        transition: transform 1s, opacity 1s;
+    }
+    main .center section:not(#soon):hover h2 {
+        transform: scale(1.3);
+        opacity: 0.8;
+    }
+    main .center section:not(#soon) h1:hover {
+        cursor: pointer;
+    }
+}
+
