@@ -1,0 +1,67 @@
+h1 {
+    color: #353535;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: 0 20px 113px;
+    padding: 40px 10px;
+}
+div.starter {
+    margin-bottom: 60px;
+}
+div.main_course {
+    margin-bottom: 60px;
+}
+div.dessert {
+    margin-bottom: 60px;
+}
+section h2:first-of-type {
+    font-size: 32px;
+    display: inline-block;
+}
+section h3 {
+    position: relative;    
+}
+section p {
+    font-size: 14px;
+}
+section .price {
+    font-size: 16px;
+}
+@media all and (min-width: 768px) {
+    .container{
+        margin: 0 auto 97px;
+        padding: 40px;
+    }
+    section div div {
+        display: flex;
+        justify-content: space-between;
+    }
+    section p {
+        font-size: 16px;
+        text-align: left;
+        margin: 8px 0 8px 60px;
+    }
+    section .price {
+        font-size: 18px;
+        margin: 8px 60px 8px 0;
+    }
+    /* UNDERLINE WHEN MOUSE HOVER */
+    section h3 span {
+        display: inline-block;
+        position: relative;
+        padding: 0 10px 10px;
+    }
+    section h3 span::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.5s ease-in;
+    }
+    section h3 span:hover::before {
+        width: 100%;
+    }
+}

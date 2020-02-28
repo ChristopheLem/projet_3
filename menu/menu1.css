@@ -1,41 +1,16 @@
-h1 {
-    color: #353535;
-    font-family: 'Roboto', sans-serif;
-}
 /* MENU */
 #menu1 {
     font-family: 'Kalam', cursive;
     background-color: #FCDFDB;
     color: #3C1218;
 }
-.container{
-    margin: 0 20px 113px;
-    padding: 40px 10px;
-}
-div.starter {
-    margin-bottom: 60px;
-}
-div.main_course {
-    margin-bottom: 60px;
-}
-div.dessert {
-    margin-bottom: 60px;
-}
 #menu1 h2:first-of-type {
+    display: block;
     font-family: 'Devonshire', cursive;   
-    font-size: 32px;
     margin-top: 0;
-}
-#menu1 h3 {
-    position: relative;    
-}
-#menu1 p {
-    margin: 8px 0;
-    font-size: 14px;
 }
 #menu1 .price {
     font-weight: 700;
-    font-size: 16px;
 }
 #menu1 h2 img {
     margin-right: 5px;
@@ -44,20 +19,12 @@ div.dessert {
 @media all and (min-width: 768px) {
     .container{
         max-width: 660px;
-        margin: 0 auto 97px;
         padding: 40px 80px;
     }
-    #menu1 div div {
-        display: flex;
-        justify-content: space-between;
-    }
     #menu1 p {
-        font-size: 16px;
         margin-left: 0;
-        text-align: left;
     }
     #menu1 .price {
-        font-size: 18px;
         margin-right: 0;
     }
     /* SIDELINE */
@@ -74,22 +41,7 @@ div.dessert {
         top: 3px;
     }
     /* UNDERLINE WHEN MOUSE HOVER */
-    #menu1 h3 span {
-        display: inline-block;
-        position: relative;
-        padding: 0 10px 10px;
-    }
     #menu1 h3 span::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 3px;
         background-color: #3C1218;
-        transition: all 0.5s ease-in;
-    }
-    #menu1 h3 span:hover::before {
-        width: 100%;
     }
 }
