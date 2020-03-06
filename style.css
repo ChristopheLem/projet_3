@@ -20,7 +20,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
+.menu {
+    font-size: 32px;
+}
 /* HEADER */
 header {
     background-color: #579C87;
@@ -43,12 +45,10 @@ header h1  {
 #menu1 h2 {
     color: #3C1218;
     font-weight: 300;
-    font-size: 24px;
     font-family: 'Devonshire', cursive;        
 }
-#menu1 h2.menu {
+#menu1 p.menu {
     font-family: 'Kalam', cursive;
-    font-size: 32px;
     color: #3C1218;
 }
 
@@ -57,16 +57,12 @@ header h1  {
     background-color: #FFF5FE;
 }
 #menu2 h2 {
-    display: inline-block;
     background: linear-gradient(to right, #CC7C53,#A56799, #9860E7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 24px;
 }
-#menu2 h2.menu  {
-    display: block;
+#menu2 p.menu  {
     font-family: 'Roboto Slab', serif;      
-    font-size: 32px;
     color: #CC7C53;
 }
 
@@ -77,17 +73,13 @@ header h1  {
 }
 
 #menu3 h2 {
-    display: inline-block;
     background: linear-gradient(to right, #0526BF,#1371E5,#3198E5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Dancing Script', cursive;  
-    font-size: 24px;  
 }
 
-#menu3 h2.menu  {
-    display: block;
-    font-size: 32px;
+#menu3 p.menu  {
     color: #3198E5;
     font-family: 'Kalam', cursive;
     font-weight: 300;
@@ -95,23 +87,18 @@ header h1  {
 /* MENU4 */
 #menu4 {
     background-color: #FDFFFD;
-
     font-weight: 400;
 }
 
 #menu4 h2 {
-    display: inline-block;
     background: linear-gradient(to right, #4EA043, #92D968, #BEFF7F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Kaushan Script', cursive;  
-    font-size: 24px;  
 }
 
-#menu4 h2.menu  {
-    display: block;
+#menu4 p.menu {
     font-family: 'Kalam', cursive;      
-    font-size: 32px;
     color: #72BF56;
     font-weight: 300;
 }
@@ -189,6 +176,7 @@ footer h3 {
     }
     main .center section:not(#soon) h2{
         transition: transform 1s, opacity 1s;
+        z-index: 3;
     }
     main .center section:not(#soon):hover h2 {
         transform: scale(1.3);
