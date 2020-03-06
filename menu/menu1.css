@@ -4,7 +4,7 @@
     background-color: #FCDFDB;
     color: #3C1218;
 }
-#menu1 h2:first-of-type {
+#menu1 h2 {
     display: block;
     font-family: 'Devonshire', cursive;   
     margin-top: 0;
@@ -12,7 +12,12 @@
 #menu1 .price {
     font-weight: 700;
 }
-#menu1 h2 img {
+.last-title {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Devonshire', cursive;   
+}
+#menu1 .last-title img {
     margin-right: 5px;
 }
 /* LAPTOP */

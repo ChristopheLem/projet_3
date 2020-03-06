@@ -3,16 +3,16 @@
     background-color: #FFF5FE;
     font-family: 'Roboto Slab', serif;  
 }
-div.starter {
+article.starter {
     color: #C67412;    
 }
-div.main_course {
+article.main_course {
     color: #A56799;
 }
-div.dessert {
+article.dessert {
     color: #6E4CCC;
 }
-#menu2 h2:first-of-type {
+#menu2 h2 {
     background: linear-gradient(to right, #CC7C53,#A56799, #9860E7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

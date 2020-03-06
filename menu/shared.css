@@ -7,16 +7,16 @@ h1 {
     margin: 0 20px 113px;
     padding: 40px 10px;
 }
-div.starter {
+article.starter {
     margin-bottom: 60px;
 }
-div.main_course {
+article.main_course {
     margin-bottom: 60px;
 }
-div.dessert {
+article.dessert {
     margin-bottom: 60px;
 }
-section h2:first-of-type {
+section h2 {
     font-size: 32px;
     display: inline-block;
 }
@@ -32,14 +32,14 @@ section .price {
 /* LAPTOP */
 @media all and (min-width: 768px) {
     .container{
-        margin: 0 auto 97px;
+        margin: 0 auto 93px;
         padding: 40px;
     }
-    section div div {
+    section article div {
         display: flex;
         justify-content: space-between;
     }
-    section p {
+    article p {
         font-size: 16px;
         text-align: left;
         margin: 8px 0 8px 60px;
