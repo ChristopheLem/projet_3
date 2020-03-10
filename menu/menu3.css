@@ -4,7 +4,7 @@
     font-family: 'Kalam', cursive;
     color: #000;
 }
-#menu3 h2:first-of-type {
+#menu3 h2 {
     background: linear-gradient(to right, #0526BF,#1371E5,#3198E5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
